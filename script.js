@@ -1,11 +1,15 @@
 // const black = document.querySelector('#black');
-// function selected() { 
-//   console.log('teste');
-//   black.className = 'selected';
-// }
-// window.onload = selected;
+// const red = document.querySelector('#red');
+// const blue = document.querySelector('#blue');
+// const green = document.querySelector('#green');
 
-// const black = document.querySelector('#black');
-// black.addEventListener('click', function(){
-//   black.className = 'selected';
-// })
+const colorSelected = document.querySelectorAll('.color');
+for (let index of colorSelected) {
+  index.addEventListener('click', function(event) {
+    let array = index.parentElement.children;
+    for (let index2 of array) {
+      index2.className = 'color';
+    }
+    index.className = 'color selected';
+  })
+}
