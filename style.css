@@ -1,16 +1,14 @@
-*  {
+* {
   margin: 0;
   padding: 0;
   border: 0;
   }
 
-  h1 {
+  h1{
     margin: 15px;
-
-
   }
 
-  .color {
+  .color{
     margin-left: 4px;
     padding: 1px;
     display: inline-block;
@@ -19,19 +17,19 @@
     height: 40px;
   }
 
-  #black {
+  #black{
     background-color: black;
     margin-left: 15px;
   }
 
-  #red {
+  #red{
     background-color: red;
   }
 
-  #blue {
+  #blue{
     background-color: blue;
   }
 
-  #green {
+  #green{
     background-color: green;
   }
