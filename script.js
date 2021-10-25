@@ -5,7 +5,7 @@
 // }
 // window.onload = selected;
 
-const black = document.querySelector('#black');
-black.addEventListener('click', function(){
-  black.className = 'selected';
-})
+// const black = document.querySelector('#black');
+// black.addEventListener('click', function(){
+//   black.className = 'selected';
+// })
